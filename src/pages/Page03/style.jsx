@@ -57,5 +57,5 @@ export const CarroselContainer = styled.div`
     width: 100%;
     height: 150px;
 
-    background-color: yellow;
+    border: solid 1px black;
 `
