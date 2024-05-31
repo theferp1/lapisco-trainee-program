@@ -17,6 +17,8 @@ export const Container01 = styled.div`
     display: flex;
     width: 100%;
     margin-top: 50px;
+
+    
 `;
 
 export const Title = styled.h1`
