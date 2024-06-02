@@ -8,7 +8,7 @@ function Footer () {
                     <NormalText>Prédio de Pesquisa - Av. Treze de Maio, 2081 - 2º andar - Benfica, Fortaleza - CE, 60040-215</NormalText>  
                 </ContainerText>     
             </Container01>
-            <ContainerMap></ContainerMap>
+            <ContainerMap>oi</ContainerMap>
         </Container>
     );
 }
