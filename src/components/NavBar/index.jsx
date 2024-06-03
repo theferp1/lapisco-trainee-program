@@ -1,11 +1,11 @@
-import { Container01, Container02, Bar, Circle } from "./style";
-import Bg from "../assets/bgimage.png"
+import { Container01, ImgBg, Container02, Bar, Circle } from "./style";
+import Bg from '../../../public/bgImage.png'
 
 function NavBar () {
     return(
         <Container01>
+            <ImgBg src={Bg}></ImgBg>
             <Container02>
-                <img src={Bg}></img>
                 <Bar></Bar>
                 <Circle></Circle>
                 <Bar></Bar>

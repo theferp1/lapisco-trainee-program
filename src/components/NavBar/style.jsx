@@ -2,12 +2,33 @@ import styled from "styled-components";
 
 
 export const Container01 = styled.div`
-    width: 100vw;
-    height: 70%;
+    display: flex;
+    flex-direction: column;
+
+    width: 100%;
+    height: 40%;
+`
+
+export const ImgBg = styled.img`
+    background-image: url(Bg);
+    background-image: url('sua-imagem.jpg'); /* Caminho para a sua imagem */
+    background-size: cover; /* Ajusta a imagem para cobrir toda a tela */
+    background-position: center; /* Centraliza a imagem */
+    background-attachment: fixed; /* Faz a imagem ficar fixa no fundo */
+    width: 100%;
+    height: auto;
 `
 export const Container02 = styled.div`
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    height: 200px;
+
+
+    
 `
 
 export const Bar = styled.div`
@@ -19,8 +40,8 @@ export const Bar = styled.div`
 
 export const Circle = styled.div`
     width: 20%;
-    height: 50px;
+    height: fit-content;
 
-    border-radius: 20px 20px 480px 480px;
-    background-color: blue;
+    border-radius: 50%;
+    background-color: #001B2E;
 `
