@@ -1,4 +1,6 @@
-import { Container, Container01, ContainerMap, ContainerText, NormalText } from './style'
+import { Container, Container01, ContainerMap, ContainerText, NormalText, WhiteBarContainer, WhiteBar } from './style'
+import MyComponent from '../Map';
+
 function Footer () {
     return(
         <Container>
@@ -8,7 +10,10 @@ function Footer () {
                     <NormalText>Prédio de Pesquisa - Av. Treze de Maio, 2081 - 2º andar - Benfica, Fortaleza - CE, 60040-215</NormalText>  
                 </ContainerText>     
             </Container01>
-            <ContainerMap>oi</ContainerMap>
+            <WhiteBarContainer>
+                <WhiteBar/>
+            </WhiteBarContainer>
+            <ContainerMap><MyComponent/></ContainerMap>
         </Container>
     );
 }

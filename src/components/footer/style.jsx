@@ -12,39 +12,61 @@ export const Container = styled.div`
 `
 export const Container01 = styled.div`
     display: flex;
+    flex-direction: column;
+
     width: 60%;
     height: 100%;
 
     background-color: #001B2E;
-    border: solid 1px white;
 `
-export const ContainerMap = styled.div`
-    display: flex;
-
-    width: 40%;
-    height: 100%;
-
-    background-color: #001B2E;
-    border: solid 1px white;
-`
-
 export const ContainerText = styled.div`
     display: flex;
     flex-direction: column;
 
     width: 100%;
     height: fit-content;
-    padding-left: 30px;
-    padding-right: 30px;
+    margin-left: 50px;
+    padding: 30px;
+    margin-top: 40px;
 
     background-color: #001B2E;
 `;
+
+export const WhiteBarContainer = styled.div`
+    display: flex;
+    width: 2px;
+    height: 100%;
+
+    justify-content: center;
+    align-items: center;
+
+    background-color: #001B2E;
+`;
+
+export const WhiteBar = styled.div`
+    width: 100%;
+    height: 80%;
+
+    border-radius: 20px;
+
+    background-color: white;
+`
+export const ContainerMap = styled.div`
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 40%;
+    height: 100%;
+
+    background-color: #001B2E;
+`
 
 export const NormalText = styled.p`
     margin-top: 8px;
     margin-bottom: 8px;
 
-    font-size: 16px;
+    font-size: 14px;
     background-color: #001B2E;
     color: #FFFFFF;
 
