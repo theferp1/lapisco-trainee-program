@@ -1,10 +1,11 @@
 import { Container01, Container02, Bar, Circle } from "./style";
-import bgImage from '../assets/bgImage.png'
+import Bg from "../assets/bgimage.png"
 
 function NavBar () {
     return(
         <Container01>
             <Container02>
+                <img src={Bg}></img>
                 <Bar></Bar>
                 <Circle></Circle>
                 <Bar></Bar>

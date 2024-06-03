@@ -7,6 +7,7 @@ import Footer from "./components/footer";
 function App() {
   return (
     <div>
+      <NavBar />
       <Page01/>
       <Page03/>
       <Footer />
