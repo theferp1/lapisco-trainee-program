@@ -22,10 +22,14 @@ export const Container01 = styled.div`
   justify-content: end;
   align-items: center;
 
+
   width: 100%;
   height: 10%;
   gap: 50px;
   z-index: 1;
+
+  background-color: transparent;
+  border: solid 1px black;
 `;
 
 
@@ -39,7 +43,7 @@ export const Container02 = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: center;
-
+    background-color: transparent;
     width: 100%;
     height: 40%;  
    
@@ -47,15 +51,16 @@ export const Container02 = styled.div`
     fill-opacity: none;
     border: solid 1px black;
 `
-export const TitleText = styled.div`
+export const TitleText = styled.p`
     font-family: "Bebas Neue", sans-serif;
     font-weight: 400;
     font-style: normal;
     font-size: 70px;
+    background-color: transparent;
     
     padding-left: 100px;
 
-    color:  #001B2E;
+    color:  #e3e3e3;
 `;
 
 export const Container03 = styled.div`
@@ -67,6 +72,7 @@ export const Container03 = styled.div`
     width: 100%;
     height: 50%;  
 
+    background-color: transparent;
     border: solid 1px black;
 `
 
