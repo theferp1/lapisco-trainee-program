@@ -9,11 +9,11 @@ export const Container = styled.div`
   height: 80vh;
 
   background-image: url('../../../public/bgImage.png');
-  border: solid 1px black;
+  border: solid 1px #29C61B;
   background-size: cover;
   background-position: center;
   position: relative;
-  z-index: 0;  /* Added z-index for background image */
+  z-index: 0;
 `;
 
 export const Container01 = styled.div`
@@ -25,20 +25,46 @@ export const Container01 = styled.div`
 
   width: 100%;
   height: 10%;
+  padding-right: 50px;
   gap: 50px;
   z-index: 1;
 
+  position: fixed;
+
   background-color: transparent;
-  border: solid 1px black;
+  border: solid 1px #29C61B;
 `;
 
+export const Container01Scrolled = styled.div`
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  align-items: center;
+  background-color: blue;
 
-export const NormalText = styled.div`
-    color: black;
+  width: 100%;
+  height: 10%;
+  padding-right: 50px;
+  gap: 50px;
+  z-index: 1;
+
+  position: fixed;
+
+  background-color: transparent;
+  border: solid 1px #29C61B;
+`;
+
+export const NormalText = styled.p`
+    font-size: larger;
+    color: #e3e3e3;
+    background-color: transparent;
 `
+
 export const Icon = styled.img`
-
+    background-color: transparent;
+    color: #e3e3e3;
 `
+
 export const Container02 = styled.div`
     display: flex;
     flex-direction: column;
@@ -47,9 +73,10 @@ export const Container02 = styled.div`
     width: 100%;
     height: 40%;  
    
+    margin-top: 5%;
     padding-left: 10px;
     fill-opacity: none;
-    border: solid 1px black;
+    border: solid 1px #29C61B;
 `
 export const TitleText = styled.p`
     font-family: "Bebas Neue", sans-serif;
@@ -73,20 +100,29 @@ export const Container03 = styled.div`
     height: 50%;  
 
     background-color: transparent;
-    border: solid 1px black;
+    border: solid 1px #29C61B;
 `
-
-export const Bar = styled.div`
+export const ContainerBar = styled.div`
+    display: flex;
     width: 40%;
+`
+export const Bar = styled.div`
+    width: 100%;
     height: 25px;
 
     background-color: #C34036;
+    
 `
-
-export const Circle = styled.div`
+export const ContainerCircle = styled.div`
+    display: flex;
     width: 20%;
-    height: 245px;
+
+    background-color: transparent;
+`
+export const Circle = styled.div`
+    width: 100%;
+    height: 205px;
 
     border-radius: 50%;
-    background-color: #001B2E;
+    background-color: #C34036;
 `
