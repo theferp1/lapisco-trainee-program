@@ -57,7 +57,10 @@ export const CarroselContainer = styled.div`
     flex-direction: column;
     
     width: 100%;
-    height: 150px;
+    height: 250px;
 
+    margin-top: 40px;
+
+    background-color: #dbdbdb;
   
 `

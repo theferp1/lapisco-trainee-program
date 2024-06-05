@@ -1,4 +1,3 @@
-
 import styled from "styled-components";
 
 export const Container = styled.div`
@@ -9,7 +8,7 @@ export const Container = styled.div`
     height: 100vh;
 
     gap: 1.5rem;
-
+    border-top
     
 `
 export const Container01 = styled.div`
@@ -36,7 +35,7 @@ export const Container02 = styled.div`
     display: flex;
     flex-direction: row;
     width: 100%;
-    height: 50%;
+    height: 25%;
 `;
 
 export const ContainerRedBar = styled.div`
@@ -70,48 +69,9 @@ export const NormalText = styled.p`
     margin-top: 15px;
     margin-bottom: 15px;
     
-    padding-right: 0px;
+    padding-right: 250px;
 
     @media screen and (max-width: 875px) {
         font-size: smaller;
     }
 `;
-
-export const Highlighted = styled.span`
-    font-family: "Poppins", sans-serif;
-    font-weight: 700;
-    font-style: normal;
-    font-size: small;
-
-    color: #C34036;
-
-    @media screen and (max-width: 875px) {
-        font-size: smaller;
-    }
-`;
-
-export const Highlighted02 = styled.span`
-    font-family: "Poppins", sans-serif;
-    font-weight: 700;
-    font-style: normal;
-    font-size: medium;
-    letter-spacing: 2px;
-
-    color: #C34036;
-
-    @media screen and (max-width: 875px) {
-        font-size: small;
-    }
-`;
-
-export const Container03 = styled.div`
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    width: 100%;
-    height: fit-content;
-`;
-
-
-

@@ -1,6 +1,5 @@
 import styled from "styled-components";
 
-
 export const Container = styled.div`
   display: flex;
   flex-direction: column;
@@ -16,7 +15,7 @@ export const Container = styled.div`
   z-index: 0;
 `;
 
-export const Container01 = styled.div`
+export const Container01 = styled.ul`
   display: flex;
   flex-direction: row;
   justify-content: end;
@@ -25,7 +24,7 @@ export const Container01 = styled.div`
 
   width: 100%;
   height: 10%;
-  padding-right: 50px;
+  padding-right: 70px;
   gap: 50px;
   z-index: 1;
 
@@ -35,26 +34,10 @@ export const Container01 = styled.div`
   border: solid 1px #29C61B;
 `;
 
-export const Container01Scrolled = styled.div`
-  display: flex;
-  flex-direction: row;
-  justify-content: end;
-  align-items: center;
-  background-color: blue;
+export const NormalText = styled.li`
 
-  width: 100%;
-  height: 10%;
-  padding-right: 50px;
-  gap: 50px;
-  z-index: 1;
-
-  position: fixed;
-
-  background-color: transparent;
-  border: solid 1px #29C61B;
-`;
-
-export const NormalText = styled.p`
+    text-decoration: none;
+    list-style: none;
     font-size: larger;
     color: #e3e3e3;
     background-color: transparent;
@@ -105,24 +88,35 @@ export const Container03 = styled.div`
 export const ContainerBar = styled.div`
     display: flex;
     width: 40%;
+    border: solid 1px #29C61B;
+
+    flex: 1;
 `
 export const Bar = styled.div`
     width: 100%;
     height: 25px;
 
     background-color: #C34036;
-    
+
+    &::nt
 `
 export const ContainerCircle = styled.div`
     display: flex;
-    width: 20%;
+    justify-content: center;
 
+    width: 20%;
+    height: 100%;
+
+    position: relative;
     background-color: transparent;
+    border: solid 1px #29C61B;
+
+    flex: 0px 0px 250px;
 `
 export const Circle = styled.div`
-    width: 100%;
-    height: 205px;
+  width: 100%; 
+  height: 100%;
 
-    border-radius: 50%;
-    background-color: #C34036;
+  background-color: #C34036;; /* Cor do círculo */
+  border-radius: 50%; /* Torna o elemento um círculo */
 `

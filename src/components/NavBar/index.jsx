@@ -1,7 +1,6 @@
 import {
   Container,
   Container01,
-  Container01Scrolled, 
   NormalText,
   Icon,
   Container02,
@@ -13,27 +12,17 @@ import {
   Circle,
 } from "./style";
 
-import Bg from "../../../public/bgImage.png";
+import bolinhas from "../../../public/bolinhas.png"
 import Menu from "../../../public/Menu.svg";
 
 function NavBar() {
-  const navbar = document.getElementById("navbar");
-
-  window.addEventListener("scroll", function () {
-    if (window.scrollY > 20) {
-      navbar.classList.add("scrolled");
-    } else {
-      navbar.classList.remove("scrolled");
-    }
-  });
 
   return (
     <Container>
       <Container01>
-        <NormalText>Home</NormalText>
-        <NormalText>Trainee</NormalText>
-        <NormalText>Home</NormalText>
-        <NormalText>About us</NormalText>
+          <NormalText><a href='#'>Home</a></NormalText>
+          <NormalText  lText><a href='#'>Trainee</a></NormalText>
+          <NormalText><a href='#'>About us</a></NormalText>
         <Icon src={Menu}></Icon>
       </Container01>
       <Container02>
@@ -41,7 +30,7 @@ function NavBar() {
         <TitleText>Trainee Program</TitleText>
       </Container02>
       <Container03>
-        <ContainerBar>
+        <ContainerBar src={bolinhas}>
           <Bar />
         </ContainerBar>
         <ContainerCircle>  
