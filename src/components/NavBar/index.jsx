@@ -11,19 +11,39 @@ import {
   ContainerCircle,
   Circle,
 } from "./style";
+import React, { useState, useEffect } from 'react';
 
 import bolinhas from "../../../public/bolinhas.png"
 import Menu from "../../../public/Menu.svg";
 
 function NavBar() {
 
+  /*Logica para o croll da NavBar */
+  const [scrolled, setScrolled] = useState(false);
+
+    useEffect(() => {
+        const handleScroll = () => {
+            if (window.scrollY > 400) {
+                setScrolled(true);
+            } else {
+                setScrolled(false);
+            }
+        };
+
+        window.addEventListener('scroll', handleScroll);
+
+        return () => {
+            window.removeEventListener('scroll', handleScroll);
+        };
+    }, []);
+
   return (
     <Container>
-      <Container01>
-          <NormalText><a href='#'>Home</a></NormalText>
-          <NormalText  lText><a href='#'>Trainee</a></NormalText>
-          <NormalText><a href='#'>About us</a></NormalText>
-        <Icon src={Menu}></Icon>
+      <Container01 scrolled={scrolled}>
+          <NormalText scrolled={scrolled}><a href='#'>Home</a></NormalText>
+          <NormalText scrolled={scrolled}><a href='#'>Trainee</a></NormalText>
+          <NormalText scrolled={scrolled}><a href='#'>About us</a></NormalText>
+        <Icon src={Menu} scrolled={scrolled}></Icon>
       </Container01>
       <Container02>
         <TitleText>Lapisco</TitleText>

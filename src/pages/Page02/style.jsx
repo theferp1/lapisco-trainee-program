@@ -16,6 +16,10 @@ export const Container01 = styled.div`
     width: 100%;
     margin-top: 50px;
 
+    padding-top: 50px;
+    
+    
+    border-top: solid 1.5px #9F9F9F;
     
 `;
 
