@@ -9,6 +9,7 @@ import {
   ContainerBar,
   Bar,
   ContainerCircle,
+  ContainerCircle2,
   Circle,
 } from "./style";
 import React, { useState, useEffect } from 'react';
@@ -53,8 +54,10 @@ function NavBar() {
         <ContainerBar src={bolinhas}>
           <Bar />
         </ContainerBar>
-        <ContainerCircle>  
-          <Circle />
+        <ContainerCircle>
+          <ContainerCircle2>  
+            <Circle />
+          </ContainerCircle2>
         </ContainerCircle>
         <ContainerBar> 
           <Bar />

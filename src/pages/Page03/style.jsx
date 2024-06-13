@@ -3,6 +3,7 @@ import styled from "styled-components";
 export const Container = styled.div`
     display: flex;
     flex-direction: column;
+    align-items: center;
     
     width: 100%;
     height: 100vh;
@@ -54,11 +55,12 @@ export const CarroselContainer = styled.div`
     display: flex;
     flex-direction: column;
     
-    width: 100%;
+    width: 85%;
     height: 250px;
-
     margin-top: 40px;
 
+    border-left: solid 5px #C34036;
+    border-right: solid 5px #C34036;
     background-color: #dbdbdb;
   
 `

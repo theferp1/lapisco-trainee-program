@@ -5,13 +5,14 @@ export const Container = styled.div`
   flex-direction: column;
 
   width: 100%;
-  height: 80vh;
+  height: fit-content;
 
   background-image: url('../../../public/bgImage.png');
   
-  background-size: cover;
+  background-size: initial;
   background-position: center;
   position: relative;
+
   z-index: 0;
 `;
 
@@ -29,10 +30,9 @@ export const Container01 = styled.nav`
   z-index: 1;
 
   position: fixed;
-  transition: background-color 0.3s ease, border 0.3s ease;
+  transition: background-color 0.5s ease, border 0.5s ease;
 
-  background-color: ${({ scrolled }) => (scrolled ? '#C34036;' : 'transparent')};
-  border: ${({ scrolled }) => (scrolled ? 'solid 1px green' : 'none')};
+  background-color: ${({ scrolled }) => (scrolled ? ' #001B2E' : 'transparent')};
 `;
 
 export const NormalText = styled.p`
@@ -70,7 +70,6 @@ export const Container02 = styled.div`
     margin-top: 5%;
     padding-left: 10px;
     fill-opacity: none;
-    border: solid 1px green;
 `
 export const TitleText = styled.p`
     font-family: "Bebas Neue", sans-serif;
@@ -89,20 +88,18 @@ export const Container03 = styled.div`
     flex-direction: row;
 
     align-items: center;
+    margin-top: ;
 
     width: 100%;
     height: 50%;  
 
     background-color: transparent;
-    border: solid 1px green;
     
 `
 export const ContainerBar = styled.div`
     display: flex;
     width: 40%;
     
-
-    border: solid 1px green;
 `
 export const Bar = styled.div`
     width: 100%;
@@ -115,21 +112,26 @@ export const Bar = styled.div`
 export const ContainerCircle = styled.div`
     display: flex;
     justify-content: center;
+    align-items: center;
 
     width: 20%;
     height: 100%;
 
     position: relative;
     background-color: transparent;
-    border: solid 1px green;
-    
+`
 
-    flex: 0px 0px 250px;
+
+export const ContainerCircle2 = styled.div`
+    width:100%;
+    height: 100%;
+
+    background-color: transparent;
 `
 export const Circle = styled.div`
   width: 100%; 
   height: 100%;
 
-  background-color: #C34036;; /* Cor do círculo */
-  border-radius: 50%; /* Torna o elemento um círculo */
-`
+  background-color: #C34036;
+  border-radius: 50%; 
+`;
