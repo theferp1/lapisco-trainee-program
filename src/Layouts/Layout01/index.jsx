@@ -1,7 +1,7 @@
 import { Container, Container01, Title, Container02, ContainerRedBar, RedBar, ContainerText, NormalText, Highlighted, Highlighted02, Container03} from "./style";
 import Counter from "../../components/Counter";
 
-function Page01() {
+function Layout01() {
   return (
     <Container>
       <Container01>
@@ -24,4 +24,4 @@ function Page01() {
   );
 }
 
-export default Page01;
+export default Layout01;

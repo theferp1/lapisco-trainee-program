@@ -5,7 +5,7 @@ export const Container = styled.div`
   flex-direction: column;
 
   width: 100%;
-  height: fit-content;
+  height: 60vh;
 
   background-image: url('../../../public/bgImage.png');
   
@@ -25,7 +25,7 @@ export const Container01 = styled.nav`
 
   width: 100%;
   height: 10%;
-  padding-right: 70px;
+  padding-right: 80px;
   gap: 50px;
   z-index: 1;
 
@@ -86,12 +86,12 @@ export const TitleText = styled.p`
 export const Container03 = styled.div`
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
 
-    align-items: center;
-    margin-top: ;
-
+    align-items: last baseline;
+    
     width: 100%;
-    height: 50%;  
+    height: 100%;
 
     background-color: transparent;
     
@@ -103,31 +103,21 @@ export const ContainerBar = styled.div`
 `
 export const Bar = styled.div`
     width: 100%;
-    height: 25px;
+    height: 20px;
 
     background-color: #C34036;
     
 
 `
 export const ContainerCircle = styled.div`
-    display: flex;
     justify-content: center;
     align-items: center;
 
     width: 20%;
     height: 100%;
-
-    position: relative;
     background-color: transparent;
 `
 
-
-export const ContainerCircle2 = styled.div`
-    width:100%;
-    height: 100%;
-
-    background-color: transparent;
-`
 export const Circle = styled.div`
   width: 100%; 
   height: 100%;

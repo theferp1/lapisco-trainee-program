@@ -2,7 +2,7 @@
 import { Container, Container01, Title, ContainerText, NormalText, CarroselContainer } from "./style";
 
 
-function Page03 () {
+function Layout03 () {
     return(
         <Container>
             <Container01>
@@ -17,4 +17,4 @@ function Page03 () {
     );
 }
 
-export default Page03;
+export default Layout03;

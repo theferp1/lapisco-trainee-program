@@ -10,7 +10,7 @@ import {
 
 } from "./style";
 
-function Page02 () {
+function Layout02 () {
     return(
         <Container>
             <Container01>
@@ -29,4 +29,4 @@ function Page02 () {
     );
 }
 
-export default Page02;
+export default Layout02;

@@ -9,22 +9,20 @@ import {
   ContainerBar,
   Bar,
   ContainerCircle,
-  ContainerCircle2,
   Circle,
 } from "./style";
 import React, { useState, useEffect } from 'react';
 
-import bolinhas from "../../../public/bolinhas.png"
 import Menu from "../../../public/Menu.svg";
 
 function NavBar() {
 
-  /*Logica para o croll da NavBar */
+  /*Logica para o scroll da NavBar */
   const [scrolled, setScrolled] = useState(false);
 
     useEffect(() => {
         const handleScroll = () => {
-            if (window.scrollY > 400) {
+            if (window.scrollY > 250) {
                 setScrolled(true);
             } else {
                 setScrolled(false);
@@ -51,13 +49,11 @@ function NavBar() {
         <TitleText>Trainee Program</TitleText>
       </Container02>
       <Container03>
-        <ContainerBar src={bolinhas}>
+        <ContainerBar>
           <Bar />
         </ContainerBar>
-        <ContainerCircle>
-          <ContainerCircle2>  
+        <ContainerCircle> 
             <Circle />
-          </ContainerCircle2>
         </ContainerCircle>
         <ContainerBar> 
           <Bar />
