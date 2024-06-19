@@ -1,13 +1,27 @@
-import NavBar from "./components/NavBar"
-import { GlobalStyle } from "./GlobalStyle"
 import { Home } from "./Pages/Home";
-import Footer from "./components/footer";
+import { Aulas } from "./Pages/Aulas"
+import { Cursos } from "./Pages/Cursos"
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 function App() {
+  const router = createBrowserRouter([
+    {
+      path: "/",
+      element: <Home />
+    },
+    {
+      path: "/aulas",
+      element: <Aulas />
+    },
+    {
+      path: "/Cursos",
+      element: <Cursos />
+    }
+  ])
   return (
-    <div>
-      <Home />
-    </div>
+    <>
+    <RouterProvider router = {router} />
+    </>
   );
 }
 

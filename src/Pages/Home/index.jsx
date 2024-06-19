@@ -9,11 +9,11 @@ import Footer from '../../components/footer'
 export const Home = () => {
   return (
     <>
-        <NavBar />
-        <Layout01 />
-        <Layout02 />
-        <Layout03 />
-        <Footer />
+      <NavBar />
+      <Layout01 />
+      <Layout02 />
+      <Layout03 />
+      <Footer />
     </>
   )
 }
