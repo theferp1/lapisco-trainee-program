@@ -133,7 +133,7 @@ export const Container03 = styled.div`
 
 export const ContainerEnd = styled.div`
     position: relative;  /* Adicione esta linha */
-    background-color: red;
+    background-color: #C34036;
     height: 12%;
     width: 100%;
 `;
@@ -149,7 +149,7 @@ export const CircleTwo = styled.div`
     height: 65px;  /* Metade da altura original */
     width: 130px;  /* Largura total */
     border-radius: 0 0 65px 65px;  /* Cria um semicírculo virado 180 graus */
-    background-color: red;
+    background-color: #C34036;
     z-index: 1;  /* Certifique-se de que o semicírculo esteja por cima */
 `;
 
