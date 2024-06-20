@@ -83,25 +83,19 @@ export const TitleText = styled.p`
     color:  #e3e3e3;
 `;
 
-export const Container03 = styled.div`
+
+export const ContainerBar = styled.div`
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-
-    align-items: last baseline;
-    
+    align-items: end;
+    justify-content: end;    
     width: 100%;
-    height: 100%;
-
+    border: solid 1px green;
     background-color: transparent;
     
 `
-export const ContainerBar = styled.div`
-    display: flex;
-    width: 40%;
-    
-`
 export const Bar = styled.div`
+   
+    justify-content: center;
     width: 100%;
     height: 20px;
 
@@ -110,18 +104,64 @@ export const Bar = styled.div`
 
 `
 export const ContainerCircle = styled.div`
-    justify-content: center;
-    align-items: center;
-
-    width: 20%;
-    height: 100%;
-    background-color: transparent;
+    width: 150px;
+    height: 150px;
+    background-color: blue;
+    border: solid 1px green;
+    margin-bottom: 50px;
+   
 `
 
 export const Circle = styled.div`
-  width: 100%; 
-  height: 100%;
-
+  width: 150px; 
+  height: 150px;
+  margin-bottom: 200px;
   background-color: #C34036;
   border-radius: 50%; 
+`;
+
+export const Container03 = styled.div`
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+
+    width: 100%;
+    height: 100%;
+
+    background-color: transparent;
+`;
+
+export const ContainerEnd = styled.div`
+    position: relative;  /* Adicione esta linha */
+    background-color: red;
+    height: 12%;
+    width: 100%;
+`;
+
+export const CircleTwo = styled.div`
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 0%;  /* Posiciona o semicírculo no fundo do ContainerEnd */
+    left: 50%;  /* Centraliza horizontalmente no ContainerEnd */
+    transform: translate(-50%, 75%);
+    height: 65px;  /* Metade da altura original */
+    width: 130px;  /* Largura total */
+    border-radius: 0 0 65px 65px;  /* Cria um semicírculo virado 180 graus */
+    background-color: red;
+    z-index: 1;  /* Certifique-se de que o semicírculo esteja por cima */
+`;
+
+export const CircleDiv = styled.div`
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border: 2px solid white;  /* Adiciona uma borda branca */
+    height: 110px;
+    width: 110px;
+    border-radius: 50%;
+    margin-bottom: 50%;
+    background-color: #000914;
 `;

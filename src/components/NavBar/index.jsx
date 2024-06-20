@@ -10,6 +10,9 @@ import {
   Bar,
   ContainerCircle,
   Circle,
+  ContainerEnd,
+  CircleTwo,
+  CircleDiv
 } from "./style";
 import React, { useState, useEffect } from 'react';
 
@@ -48,17 +51,19 @@ function NavBar() {
         <TitleText>Lapisco</TitleText>
         <TitleText>Trainee Program</TitleText>
       </Container02>
-      <Container03>
-        <ContainerBar>
-          <Bar />
-        </ContainerBar>
-        <ContainerCircle> 
-            <Circle />
-        </ContainerCircle>
-        <ContainerBar> 
-          <Bar />
-        </ContainerBar> 
+      <Container03>  
+        <ContainerEnd>
+          <CircleTwo>
+            <CircleDiv>
+              <img src="lapiscoLogo.svg" width={'80%'} />
+            </CircleDiv>
+          </CircleTwo>
+        </ContainerEnd>
+  
       </Container03>
+
+
+
     </Container>
   );
 }
