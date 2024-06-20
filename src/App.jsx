@@ -18,6 +18,11 @@ function App() {
     {
       path: "/Cursos",
       element: <Cursos />
+    },
+    {
+      path: "/Cursos/:cursosId",
+      element: <Cursos />,
+      
     }
   ])
   return (

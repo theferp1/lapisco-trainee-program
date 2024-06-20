@@ -13,7 +13,7 @@ export const Carousel = () => {
     <div>
       {courses.map((courses) => (
         <Link key={courses} to={`/cursos/${courses}`} >
-            Cursros {courses}
+            Cursos {courses}
         </Link>
       ))}
     </div>
