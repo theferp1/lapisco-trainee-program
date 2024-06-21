@@ -9,6 +9,7 @@ import {
   ContainerBar,
   Semicircle,
   MiddleCircle,
+  Logo
 } from "./style";
 import React, { useState, useEffect } from "react";
 
@@ -56,7 +57,7 @@ function NavBar() {
         <ContainerBar>
           <Semicircle>
             <MiddleCircle>
-              <img src="lapiscoLogo.svg" width={"80%"} />
+              <Logo src="lapiscoLogo.svg"/>
             </MiddleCircle>
           </Semicircle>
         </ContainerBar>

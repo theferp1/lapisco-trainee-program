@@ -8,7 +8,6 @@ export const Container = styled.div`
     height: 100vh;
 
     gap: 1.5rem;
-    border: solid 1px yellow;
     
 `
 export const Container01 = styled.div`
@@ -16,9 +15,10 @@ export const Container01 = styled.div`
     width: 100%;
 
     padding-top: 5%;
-    padding-left: 8%;
+    padding-left: 8.5%;
     
-    border-top: solid 1.5px #9F9F9F;    
+    border-top: solid 1.5px #9F9F9F;   
+    
 `;
 
 export const Title = styled.h1`
@@ -34,7 +34,7 @@ export const Container02 = styled.div`
     display: flex;
     flex-direction: row;
     width: 100%;
-    height: 25%;
+    height: fit-content;
 `;
 
 export const ContainerRedBar = styled.div`
@@ -44,6 +44,7 @@ export const ContainerRedBar = styled.div`
     
     width: 9%;
     height: 100%;
+    padding-left: 8%;
 `
 
 export const RedBar = styled.div`
@@ -58,19 +59,21 @@ export const ContainerText = styled.div`
     flex-direction: column;
     
     width: 100%;
-    height: fit-content;
-    padding-left: 40px;
-    padding-right: 40px;
-    padding-top: 20px;;
+    height: 100%;
+    padding-left: 3%;
+    margin-right: 9%;
+
 `;
 
 export const NormalText = styled.p`
     margin-top: 15px;
     margin-bottom: 15px;
-    
-    padding-right: 250px;
 
     @media screen and (max-width: 875px) {
         font-size: smaller;
     }
 `;
+
+export const Logos = styled.img`
+    background-color: transparent;
+`

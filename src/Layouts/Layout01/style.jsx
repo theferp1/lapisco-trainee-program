@@ -57,16 +57,14 @@ export const ContainerText = styled.div`
 
   width: 100%;
   height: fit-content;
-  padding-left: 40px;
-  padding-right: 40px;
-  padding-top: 20px;
+  padding-left: 3%;
+  padding-right: 3%;
+  padding-top: 1%;
 `;
 
 export const NormalText = styled.p`
-  margin-top: 15px;
-  margin-bottom: 15px;
-
-  padding-right: 0px;
+  margin-top: 12px;
+  margin-bottom: 12px;
 
   @media screen and (max-width: 875px) {
     font-size: smaller;
@@ -107,4 +105,6 @@ export const Container03 = styled.div`
 
   width: 100%;
   height: fit-content;
+  
+  margin-bottom: 3%;
 `;

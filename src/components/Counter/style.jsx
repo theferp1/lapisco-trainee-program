@@ -13,11 +13,11 @@ export const Container = styled.div`
 export const Ball = styled.div`
     display: flex;
 
-    width: 65px;
-    height: 65px;
+    width: 70px;
+    height: 70px;
 
-    background-color: #e3e3e3; /* Cor de fundo da div */
-    border-radius: 50%; /* Faz a div ficar redonda */
+    background-color: #e3e3e3; 
+    border-radius: 50%;
     border: solid #001B2E 3px;
     align-items: center;
     justify-content: center;
@@ -26,12 +26,11 @@ export const Ball = styled.div`
 export const BallRed = styled.div`
     display: flex;
 
-    width: 65px;
-    height: 65px;
+    width: 68px;
+    height: 68px;
 
-    background-color:#C34036;  /* Cor de fundo da div */
-    border-radius: 50%; /* Faz a div ficar redonda */
-    border: solid #C34036  3px;
+    background-color:#C34036;  
+    border-radius: 50%; 
     align-items: center;
     justify-content: center;
 `;
