@@ -10,6 +10,7 @@ import {
   WhiteBar,
 } from "./style";
 import MyComponent from "../Map";
+import { Link } from "react-router-dom";
 
 function Footer() {
   return (
@@ -26,8 +27,8 @@ function Footer() {
           </NormalText>
         </ContainerText>
         <ContainerImages>
-          <Logos src="lapiscoLogo.png" width={"30%"}></Logos>
-          <Logos src="ifceLogo.png" width= {"55%"}></Logos>
+          <Logos src="ifceLogo.png" width= {"20%"}></Logos>
+          <Logos src="lapiscoLogo.png" width={"15%"}></Logos>
         </ContainerImages>
       </Container01>
       <WhiteBarContainer>

@@ -5,9 +5,8 @@ export const Container = styled.div`
   flex-direction: row;
 
   width: 100%;
-  height: 270px;
+  height: 300px;
   
-  border: solid 1px yellow;
 `;
 export const Container01 = styled.div`
   display: flex;
@@ -17,28 +16,35 @@ export const Container01 = styled.div`
   height: 100%;
 
   background-color: #001b2e;
-  border: solid 1px yellow;
 `;
 export const ContainerText = styled.div`
   display: flex;
   flex-direction: column;
 
   width: 100%;
-  padding-left: 10%;
-  padding-top: 4%;
+  padding-left: 12%;
+  padding-top: 8%;
 
   background-color: #001b2e;
-  border: solid 1px yellow;
 `;
 
 export const ContainerImages = styled.div`
-  width: 400px;
-  height: 400px;
+  display: flex;
+  flex-direction: row;
+
+  padding-left: 12%;
+  
+  padding-top: 5%;
+  gap: 50px;
+
+  width: 100%;
+  height: auto;
 
   background-color: transparent;
 `;
 
 export const Logos = styled.img`
+  height: auto;
   background-color: transparent;
 `;
 
@@ -51,7 +57,6 @@ export const WhiteBarContainer = styled.div`
   align-items: center;
 
   background-color: #001b2e;
-  border: solid 1px red;
 `;
 
 export const WhiteBar = styled.div`
@@ -71,7 +76,6 @@ export const ContainerMap = styled.div`
   height: 100%;
 
   background-color: #001b2e;
-  border: solid 1px yellow;
 `;
 
 export const NormalText = styled.p`
