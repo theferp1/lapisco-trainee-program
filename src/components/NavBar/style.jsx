@@ -14,7 +14,13 @@ export const Container = styled.div`
 
   padding-top: 1;
 
-  z-index: 0;
+  z-index: 5;
+
+  @media screen and (max-width: 900px) {
+    width: 100%;
+    height: 65vh;
+  }
+
 `;
 
 export const Container01 = styled.nav`
@@ -34,6 +40,15 @@ export const Container01 = styled.nav`
   transition: background-color 0.5s ease, border 0.5s ease;
   background-color: ${({ scrolled }) =>
     scrolled ? " #001B2E" : "transparent"};
+
+  
+@media screen and (max-width: 900px) {
+  gap: 4em;
+  }
+
+  @media screen and (max-width: 630px) {
+    gap: 2em;
+  }
 `;
 
 export const NormalText = styled.p`
@@ -56,6 +71,7 @@ export const NormalText = styled.p`
       }
     }
   }
+
 `;
 
 export const Icon = styled.img`
@@ -71,9 +87,16 @@ export const Container02 = styled.div`
   width: 100%;
   height: 40%;
 
-  margin-top: 11.5%; /* Adiciona margem superior para evitar sobreposição */
-  padding-left: 10px;
-  fill-opacity: none;
+  margin-top: 10%; /* Adiciona margem superior para evitar sobreposição */
+  padding-left: 8%;
+  
+  @media screen and (max-width: 900px) {
+    margin-top: 12%;
+  }
+
+  @media screen and (max-width: 630px) {
+    margin-top: 15%;
+  }
 `;
 
 export const TitleText = styled.p`
@@ -85,9 +108,12 @@ export const TitleText = styled.p`
 
   line-height: 1em;
 
-  padding-left: 8%;
 
   color: #e3e3e3;
+
+  @media screen and (min-width: 1980px) {
+    font-size: 100px;
+  }
 `;
 
 export const Bar = styled.div`
@@ -112,7 +138,7 @@ export const Container03 = styled.div`
 export const ContainerBar = styled.div`
   position: relative;
   background-color: #c34036;
-  height: 21%;
+  height: 20px;
   width: 100%;
 
 `;
@@ -124,7 +150,7 @@ export const Semicircle = styled.div`
   position: absolute;
   bottom: 0%; /* Posiciona o semicírculo no fundo do ContainerEnd */
   left: 50%; /* Centraliza horizontalmente no ContainerEnd */
-  transform: translate(-50%, 75%);
+  transform: translate(-50%, 85%);
   height: 110px; /* Metade da altura original */
   width: 220px; /* Largura total */
   border-radius: 0 0 110px 110px; /* Cria um semicírculo virado 180 graus */
@@ -149,6 +175,11 @@ export const MiddleCircle = styled.div`
 export const Logo = styled.img`
   background-color: transparent;
 
-  width: 80%;
+  width: 70%;
   height: auto;
+`;
+
+export const AnimationLogo = styled.img`
+  width: 80%;
+  background-color: transparent;
 `;
