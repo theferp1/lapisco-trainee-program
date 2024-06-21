@@ -8,19 +8,17 @@ export const Container = styled.div`
     height: 100vh;
 
     gap: 1.5rem;
-    border-top
+    border: solid 1px yellow;
     
 `
 export const Container01 = styled.div`
     display: flex;
     width: 100%;
-    margin-top: 50px;
 
-    padding-top: 50px;
+    padding-top: 5%;
+    padding-left: 8%;
     
-    
-    border-top: solid 1.5px #9F9F9F;
-    
+    border-top: solid 1.5px #9F9F9F;    
 `;
 
 export const Title = styled.h1`
@@ -28,9 +26,6 @@ export const Title = styled.h1`
     font-weight: 400;
     font-style: normal;
     font-size: 60px;
-    
-    
-    padding-left: 100px;
 
     color: #C34036; 
 `;

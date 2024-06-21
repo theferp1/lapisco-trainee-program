@@ -11,9 +11,12 @@ export const Container = styled.div`
 `
 export const Container01 = styled.div`
     display: flex;
+    flex-direction: column;
+
     width: 100%;
-    margin-top: 50px;
-    padding-top: 50px;
+
+    padding-top: 5%;
+    padding-left: 7.7%;
     
     
     border-top: solid 1.5px #9F9F9F;
@@ -25,8 +28,6 @@ export const Title = styled.h1`
     font-style: normal;
     font-size: 60px;
     
-    padding-left: 100px;
-
     color: #C34036;
 `;
 
@@ -34,21 +35,10 @@ export const NormalText = styled.p`
     margin-top: 15px;
     margin-bottom: 15px;
     
-    padding-right: 0px;
 
     @media screen and (max-width: 875px) {
         font-size: smaller;
     }
-`;
-
-export const ContainerText = styled.div`
-    display: flex;
-    flex-direction: column;
-    
-    width: 100%;
-    height: fit-content;
-    padding-left: 8rem;
-    padding-right: 40px;
 `;
 
 export const CarroselContainer = styled.div`
@@ -57,7 +47,7 @@ export const CarroselContainer = styled.div`
     
     width: 85%;
     height: 250px;
-    margin-top: 40px;
+    margin-top: 3%;
 
     border-left: solid 5px #C34036;
     border-right: solid 5px #C34036;
