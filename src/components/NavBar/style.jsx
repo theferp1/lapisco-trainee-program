@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { keyframes } from 'styled-components';
 
 export const Container = styled.div`
   display: flex;
@@ -21,6 +22,11 @@ export const Container = styled.div`
     height: 65vh;
   }
 
+  @media screen and (max-width: 630px) {
+    width: 100%;
+    height: 60vh;
+  }
+
 `;
 
 export const Container01 = styled.nav`
@@ -33,11 +39,11 @@ export const Container01 = styled.nav`
   height: 10%;
   padding-right: 6%;
   gap: 5em;
-  z-index: 1;
+  z-index: 2;
 
   position: fixed;
   top: 0;
-  transition: background-color 0.5s ease, border 0.5s ease;
+  transition: background-color 0.6s ease, border 0.6s ease;
   background-color: ${({ scrolled }) =>
     scrolled ? " #001B2E" : "transparent"};
 
@@ -47,7 +53,7 @@ export const Container01 = styled.nav`
   }
 
   @media screen and (max-width: 630px) {
-    gap: 2em;
+    gap: 3em;
   }
 `;
 
@@ -72,11 +78,35 @@ export const NormalText = styled.p`
     }
   }
 
+  @media screen and (min-width: 1980px) {
+    background-color: transparent;
+
+  & a {
+    background-color: transparent;
+    color: ${({ scrolled }) => (scrolled ? "#ffffff" : "#e3e3e3")};
+    text-decoration: none;
+    font-size: 18px;
+
+    &:hover {
+      color: #b14141;
+      font-size: 19px;
+
+      &::after {
+        transform: scaleX(1);
+        transform-origin: bottom left;
+        font-size: 18px;
+      }
+    }
+  }
+  }
+
 `;
 
 export const Icon = styled.img`
   background-color: transparent;
   color: ${({ scrolled }) => (scrolled ? "#ffffff" : "#e3e3e3")};
+
+
 `;
 
 export const Container02 = styled.div`
@@ -95,20 +125,18 @@ export const Container02 = styled.div`
   }
 
   @media screen and (max-width: 630px) {
-    margin-top: 15%;
+    margin-top: 13%;
   }
 `;
 
-export const TitleText = styled.p`
+export const TitleText = styled.h1`
   font-family: "Bebas Neue", sans-serif;
   font-weight: 400;
   font-style: normal;
   font-size: 70px;
   background-color: transparent;
-
-  line-height: 1em;
-
-
+  line-height: 1.1em;
+  letter-spacing: 3px;
   color: #e3e3e3;
 
   @media screen and (min-width: 1980px) {
