@@ -8,6 +8,8 @@ export const Container = styled.div`
   height: 100vh;
 
   gap: 1.5rem;
+  margin-bottom: 20px;
+
 `;
 export const Container01 = styled.div`
   display: flex;
@@ -15,6 +17,16 @@ export const Container01 = styled.div`
 
     padding-top: 5%;
     padding-left: 8.8%;
+
+    @media screen and (max-width: 1100px) {
+  margin-top: 5%;
+  }
+  @media screen and (max-width: 900px) {
+  margin-top: 7%;
+  }
+  @media screen and (max-width: 630px) {
+  margin-top: 9%;
+  }
 `;
 
 export const Title = styled.h1`

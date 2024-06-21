@@ -27,6 +27,10 @@ export const Container = styled.div`
     height: 60vh;
   }
 
+  @media screen and (min-width: 1600px) {
+    background-size: cover
+  }
+
 `;
 
 export const Container01 = styled.nav`
@@ -78,7 +82,7 @@ export const NormalText = styled.p`
     }
   }
 
-  @media screen and (min-width: 1980px) {
+  @media screen and (min-width: 1600px) {
     background-color: transparent;
 
   & a {
@@ -117,15 +121,15 @@ export const Container02 = styled.div`
   width: 100%;
   height: 40%;
 
-  margin-top: 10%; /* Adiciona margem superior para evitar sobreposição */
+  margin-top: 9%; /* Adiciona margem superior para evitar sobreposição */
   padding-left: 8%;
   
   @media screen and (max-width: 900px) {
-    margin-top: 12%;
+    margin-top: 11%;
   }
 
   @media screen and (max-width: 630px) {
-    margin-top: 13%;
+    margin-top: 16%;
   }
 `;
 
@@ -141,6 +145,12 @@ export const TitleText = styled.h1`
 
   @media screen and (min-width: 1980px) {
     font-size: 100px;
+  }
+  @media screen and (max-width: 900px) {
+    font-size: 70px;
+  }
+  @media screen and (max-width: 630px) {
+    font-size: 60px;
   }
 `;
 
