@@ -57,7 +57,7 @@ function NavBar() {
         <ContainerBar>
           <Semicircle>
             <MiddleCircle>
-            <AnimationLogo src="animation-lapisco.gif" width={"260%"} loop autoPlay muted border-ra></AnimationLogo>
+            <AnimationLogo src="animation-lapisco.gif" width={"260%"} loop autoPlay muted ></AnimationLogo>
             </MiddleCircle>
           </Semicircle>
         </ContainerBar>

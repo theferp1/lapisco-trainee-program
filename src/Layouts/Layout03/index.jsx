@@ -6,6 +6,7 @@ import {
   NormalText,
   CarroselContainer,
 } from "./style";
+import { Carousel } from "../../components/Carousel";
 
 function Layout03() {
   return (
@@ -19,6 +20,7 @@ function Layout03() {
         </NormalText>
       </Container01>
       <CarroselContainer>
+        <Carousel />
       </CarroselContainer>
     </Container>
   );
