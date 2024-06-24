@@ -37,7 +37,6 @@ export const Container01 = styled.div`
   @media screen and (max-width: 630px) {
     margin-top: 18%;
   }
-
 `;
 
 export const Title = styled.h1`
@@ -49,16 +48,13 @@ export const Title = styled.h1`
   color: #c34036;
 
   @media screen and (max-width: 1100px) {
-    
-  font-size: 55px;
+    font-size: 55px;
   }
   @media screen and (max-width: 900px) {
-    
-  font-size: 50px;
+    font-size: 50px;
   }
   @media screen and (max-width: 630px) {
-    
-  font-size: 45px;
+    font-size: 45px;
   }
 `;
 
@@ -102,7 +98,7 @@ export const NormalText = styled.p`
   margin-top: 12px;
   margin-bottom: 12px;
 
-  @media screen and (max-width: 875px) {
+  @media screen and (max-width: 900px) {
     font-size: smaller;
   }
 `;
@@ -115,7 +111,7 @@ export const Highlighted = styled.span`
 
   color: #c34036;
 
-  @media screen and (max-width: 875px) {
+  @media screen and (max-width: 900px) {
     font-size: smaller;
   }
 `;

@@ -13,13 +13,11 @@ export const Container = styled.div`
   background-size: initial;
   background-position: center;
 
-  padding-top: 1;
-
   z-index: 5;
 
   @media screen and (max-width: 900px) {
     width: 100%;
-    height: 65vh;
+    height: 70vh;
   }
 
   @media screen and (max-width: 630px) {
@@ -121,15 +119,19 @@ export const Container02 = styled.div`
   width: 100%;
   height: 40%;
 
-  margin-top: 9%; /* Adiciona margem superior para evitar sobreposição */
+  margin-top: 10%; /* Adiciona margem superior para evitar sobreposição */
   padding-left: 8%;
   
   @media screen and (max-width: 900px) {
-    margin-top: 11%;
+    margin-top: 12%;
   }
 
   @media screen and (max-width: 630px) {
-    margin-top: 16%;
+    margin-top: 17%;
+  }
+
+  @media screen and (max-width: 500px) {
+    margin-top: 19%;
   }
 `;
 
@@ -151,6 +153,9 @@ export const TitleText = styled.h1`
   }
   @media screen and (max-width: 630px) {
     font-size: 60px;
+  }
+  @media screen and (max-width: 500px) {
+    font-size: 55px;
   }
 `;
 

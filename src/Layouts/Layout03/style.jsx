@@ -29,6 +29,19 @@ export const Title = styled.h1`
     font-size: 60px;
     
     color: #C34036;
+
+    @media screen and (max-width: 1100px) {
+    
+    font-size: 55px;
+    }
+    @media screen and (max-width: 900px) {
+      
+    font-size: 50px;
+    }
+    @media screen and (max-width: 630px) {
+      
+    font-size: 45px;
+    }
 `;
 
 export const NormalText = styled.p`
