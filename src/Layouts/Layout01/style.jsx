@@ -19,23 +19,22 @@ export const Container = styled.div`
   @media screen and (max-width: 630px) {
     margin-bottom: 9%;
   }
-
 `;
 export const Container01 = styled.div`
   display: flex;
-    width: 100%;
+  width: 100%;
 
-    margin-top: 5%;
-    margin-left: 8.8%;
+  padding-top: 5%;
+  padding-left: 8.8%;
 
   @media screen and (max-width: 1100px) {
-  margin-top: 8%;
+    margin-top: 8%;
   }
   @media screen and (max-width: 900px) {
-  margin-top: 10%;
+    margin-top: 10%;
   }
   @media screen and (max-width: 630px) {
-  margin-top: 13%;
+    margin-top: 13%;
   }
 `;
 
@@ -43,7 +42,7 @@ export const Title = styled.h1`
   font-family: "Bebas Neue", sans-serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 60px; 
+  font-size: 60px;
 
   color: #c34036;
 `;
@@ -127,6 +126,6 @@ export const Container03 = styled.div`
 
   width: 100%;
   height: fit-content;
-  
+
   margin-bottom: 30%;
 `;
