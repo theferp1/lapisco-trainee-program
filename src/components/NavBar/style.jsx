@@ -199,7 +199,13 @@ export const Semicircle = styled.div`
   border-radius: 0 0 110px 110px; /* Cria um semicírculo virado 180 graus */
   background-color: #c34036;
   z-index: 1; /* Certifique-se de que o semicírculo esteja por cima */
+  
 
+  @media screen and (max-width: 500px) {
+    height: 90px; /* Metade da altura original */
+    width: 180px; /* Largura total */
+    border-radius: 0 0 90px 90px; /* Cria um semicírculo virado 180 graus */
+  }
 `;
 
 export const MiddleCircle = styled.div`
@@ -213,6 +219,11 @@ export const MiddleCircle = styled.div`
   border-radius: 50%;
   margin-bottom: 50%;
   background-color: #000914;
+
+  @media screen and (max-width: 500px) {
+    height: 150px; 
+    width: 150px; 
+  }
 `;
 
 export const Logo = styled.img`
