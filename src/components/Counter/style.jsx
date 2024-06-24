@@ -49,17 +49,18 @@ export const Ball = styled.div`
     height: 44px;
   }
   @media screen and (max-width: 500px) {
-    width: 36px;
-    height: 36px;
+    width: 40px;
+    height: 40px;
   }
 `;
 
 export const BallRed = styled.div`
   display: flex;
 
-  width: 68px;
-  height: 68px;
+  width: 70px;
+  height: 70px;
 
+  border: solid #c34036 2px;
   background-color: #c34036;
   border-radius: 50%;
   align-items: center;
@@ -72,6 +73,7 @@ export const BallRed = styled.div`
   @media screen and (max-width: 900px) {
     width: 52px;
     height: 52px;
+    border: solid #c34036 2px;
   }
   @media screen and (max-width: 630px) {
     width: 44px;

@@ -6,7 +6,7 @@ export const Container = styled.div`
     align-items: center;
     
     width: 100%;
-    height: 100vh;
+    height: fit-content;
 
 `
 export const Container01 = styled.div`
