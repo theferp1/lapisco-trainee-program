@@ -8,6 +8,21 @@ export const Container = styled.div`
     height: 100vh;
 
     gap: 1.5rem;
+
+    margin-top: 8%;
+
+    @media screen and (max-width: 1100px){
+        margin-top: 17%;
+    }
+    @media screen and (max-width: 900px){
+        margin-top: 14%;
+    }
+    @media screen and (max-width: 630px){
+        margin-top: 12%;
+    }
+    @media screen and (max-width: 500px){
+        margin-top: 8%;
+    }
     
 `
 export const Container01 = styled.div`

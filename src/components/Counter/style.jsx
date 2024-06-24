@@ -8,6 +8,7 @@ export const Container = styled.div`
   height: auto;
 
   gap: 5rem;
+  margin-top: 4%;
 
   @media screen and (max-width: 1100px) {
     gap: 4rem;
@@ -49,8 +50,8 @@ export const Ball = styled.div`
     height: 44px;
   }
   @media screen and (max-width: 500px) {
-    width: 40px;
-    height: 40px;
+    width: 42px;
+    height: 42px;
   }
 `;
 
@@ -80,8 +81,8 @@ export const BallRed = styled.div`
     height: 44px;
   }
   @media screen and (max-width: 500px) {
-    width: 40px;
-    height: 40px;
+    width: 42px;
+    height: 42px;
   }
 `;
 
@@ -152,7 +153,7 @@ export const LabelBall = styled.p`
     font-size: 14px;
   }
   @media screen and (max-width: 500px) {
-    font-size: 13px;
+    font-size: 10px;
   }
 `;
 
@@ -179,7 +180,7 @@ export const LabelBallRed = styled.p`
         }
         @media screen and (max-width: 500px) {
             
-        font-size: 13px;
+        font-size: 10px;
 
         }
 `;

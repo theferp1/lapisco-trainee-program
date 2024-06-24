@@ -7,8 +7,7 @@ export const Container = styled.div`
   width: 100%;
   height: 100vh;
 
-  gap: 1.5rem;
-  margin-bottom: 4%;
+  margin-bottom: 3.5rem;
 
   @media screen and (max-width: 1100px) {
     margin-bottom: 7%;
@@ -27,15 +26,18 @@ export const Container01 = styled.div`
   padding-top: 5%;
   padding-left: 8.8%;
 
+  margin-top: 2%;
+
   @media screen and (max-width: 1100px) {
-    margin-top: 8%;
-  }
-  @media screen and (max-width: 900px) {
     margin-top: 10%;
   }
-  @media screen and (max-width: 630px) {
-    margin-top: 13%;
+  @media screen and (max-width: 900px) {
+    margin-top: 12%;
   }
+  @media screen and (max-width: 630px) {
+    margin-top: 18%;
+  }
+
 `;
 
 export const Title = styled.h1`
@@ -45,6 +47,19 @@ export const Title = styled.h1`
   font-size: 60px;
 
   color: #c34036;
+
+  @media screen and (max-width: 1100px) {
+    
+  font-size: 55px;
+  }
+  @media screen and (max-width: 900px) {
+    
+  font-size: 50px;
+  }
+  @media screen and (max-width: 630px) {
+    
+  font-size: 45px;
+  }
 `;
 
 export const Container02 = styled.div`
