@@ -14,8 +14,8 @@ export const Container01 = styled.div`
     display: flex;
     width: 100%;
 
-    padding-top: 5%;
-    padding-left: 8.5%;
+    margin-top: 5%;
+    margin-left: 8.5%;
     
     border-top: solid 1.5px #9F9F9F;   
     

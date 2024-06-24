@@ -15,17 +15,17 @@ export const Container01 = styled.div`
   display: flex;
     width: 100%;
 
-    padding-top: 5%;
-    padding-left: 8.8%;
+    margin-top: 5%;
+    margin-left: 8.8%;
 
     @media screen and (max-width: 1100px) {
-  margin-top: 5%;
+  margin-top: 8%;
   }
   @media screen and (max-width: 900px) {
-  margin-top: 7%;
+  margin-top: 10%;
   }
   @media screen and (max-width: 630px) {
-  margin-top: 9%;
+  margin-top: 13%;
   }
 `;
 
