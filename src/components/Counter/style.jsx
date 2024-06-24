@@ -21,6 +21,23 @@ export const Ball = styled.div`
     border: solid #001B2E 3px;
     align-items: center;
     justify-content: center;
+
+    @media screen and (max-width: 1100px) {
+      width: 60px;
+      height: 60px;
+    }
+    @media screen and (max-width: 900px) {
+      width: 52px;
+      height: 52px;
+    }
+    @media screen and (max-width: 630px) {
+      width: 44px;
+      height: 44px;
+    }
+    @media screen and (max-width: 500px) {
+      width: 36px;
+      height: 36px;
+    }
 `;
 
 export const BallRed = styled.div`
@@ -33,34 +50,27 @@ export const BallRed = styled.div`
     border-radius: 50%; 
     align-items: center;
     justify-content: center;
+
+    @media screen and (max-width: 1100px) {
+      width: 60px;
+      height: 60px;
+    }
+    @media screen and (max-width: 900px) {
+      width: 52px;
+      height: 52px;
+    }
+    @media screen and (max-width: 630px) {
+      width: 44px;
+      height: 44px;
+    }
+    @media screen and (max-width: 500px) {
+      width: 36px;
+      height: 36px;
+    }
+    
 `;
 
-
-export const ContainerYears = styled.div`
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-`;
-
-export const ContainerMembers = styled.div`
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-`;
-
-export const ContainerProjects = styled.div`
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-`;
-
-export const ContainerPapers = styled.div`
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-`;
-
-export const ContainerCoffes = styled.div`
+export const ContainerBalls = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -71,6 +81,20 @@ export const Number = styled.div`
     font-weight: 700;
     font-style: normal;
     font-size: x-large;
+    background-color: transparent;
+
+    @media screen and (max-width: 1100px) {
+      font-size: 24px;
+    }
+    @media screen and (max-width: 900px) {
+        font-size: 20px;
+    }
+    @media screen and (max-width: 630px) {
+        font-size: 16px;
+    }
+    @media screen and (max-width: 500px) {
+        font-size: 12px;
+    }
 `;
 
 export const NumberRed = styled.div`
@@ -78,8 +102,21 @@ export const NumberRed = styled.div`
     font-weight: 700;
     font-style: normal;
     font-size: x-large;
-    background-color: #C34036; 
+    background-color: transparent; 
     color: #e3e3e3;
+
+    @media screen and (max-width: 1100px) {
+      font-size: 24px;
+    }
+    @media screen and (max-width: 900px) {
+        font-size: 20px;
+    }
+    @media screen and (max-width: 630px) {
+        font-size: 16px;
+    }
+    @media screen and (max-width: 500px) {
+        font-size: 12px;
+    }
 
 `;
 

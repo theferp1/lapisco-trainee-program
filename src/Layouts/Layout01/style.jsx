@@ -8,7 +8,17 @@ export const Container = styled.div`
   height: 100vh;
 
   gap: 1.5rem;
-  margin-bottom: 20px;
+  margin-bottom: 4%;
+
+  @media screen and (max-width: 1100px) {
+    margin-bottom: 7%;
+  }
+  @media screen and (max-width: 900px) {
+    margin-bottom: 8%;
+  }
+  @media screen and (max-width: 630px) {
+    margin-bottom: 9%;
+  }
 
 `;
 export const Container01 = styled.div`
@@ -18,7 +28,7 @@ export const Container01 = styled.div`
     margin-top: 5%;
     margin-left: 8.8%;
 
-    @media screen and (max-width: 1100px) {
+  @media screen and (max-width: 1100px) {
   margin-top: 8%;
   }
   @media screen and (max-width: 900px) {
@@ -118,5 +128,5 @@ export const Container03 = styled.div`
   width: 100%;
   height: fit-content;
   
-  margin-bottom: 3%;
+  margin-bottom: 30%;
 `;

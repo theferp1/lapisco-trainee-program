@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Container, ContainerYears, ContainerMembers, ContainerProjects, ContainerPapers, ContainerCoffes, Ball, BallRed, Number, NumberRed, LabelBall, LabelBallRed } from "./style";
+import { Container, ContainerBalls, Ball, BallRed, Number, NumberRed, LabelBall, LabelBallRed } from "./style";
 
 const Counter = () => {
     const [coffees, setCoffees] = useState(70);
@@ -14,36 +14,36 @@ const Counter = () => {
 
     return (
         <Container>
-            <ContainerYears>
+            <ContainerBalls>
                 <Ball>
                     <Number>9</Number>
                 </Ball>
                 <LabelBall>years</LabelBall>
-            </ContainerYears>
-            <ContainerMembers>
+            </ContainerBalls>
+            <ContainerBalls>
                 <Ball>
                     <Number>61</Number>
                 </Ball>
                 <LabelBall>members</LabelBall>
-            </ContainerMembers>
-            <ContainerProjects>
+            </ContainerBalls>
+            <ContainerBalls>
                 <Ball>
                     <Number>38</Number>
                 </Ball>
                 <LabelBall>projects</LabelBall>
-            </ContainerProjects>
-            <ContainerPapers>
+            </ContainerBalls>
+            <ContainerBalls>
                 <Ball>
                     <Number>251</Number>
                 </Ball>
                 <LabelBall>papers</LabelBall>
-            </ContainerPapers>
-            <ContainerCoffes>
+            </ContainerBalls>
+            <ContainerBalls>
                 <BallRed>
                     <NumberRed>{coffees}</NumberRed>
                 </BallRed>
                 <LabelBallRed>coffes</LabelBallRed>
-            </ContainerCoffes>
+            </ContainerBalls>
         </Container>
     );
 }

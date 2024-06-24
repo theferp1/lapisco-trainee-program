@@ -6,6 +6,8 @@ export const Container = styled.div`
 
   width: 100%;
   height: 300px;
+
+  margin-top: 500px;
   
 `;
 export const Container01 = styled.div`
@@ -23,7 +25,7 @@ export const ContainerText = styled.div`
 
   width: 100%;
   padding-left: 12%;
-  padding-top: 8%;
+  padding-top: %;
 
   background-color: #001b2e;
 `;
