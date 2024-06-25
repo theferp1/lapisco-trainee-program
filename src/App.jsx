@@ -7,7 +7,7 @@ import { NotFound } from "./Pages/NotFound";
 function App() {
   const router = createBrowserRouter([
     {
-      path: "/lapisco-trainee-program",
+      path: "/",
       element: <Home />,
       errorElement: <NotFound />
     },
