@@ -119,15 +119,15 @@ export const Container02 = styled.div`
   width: 100%;
   height: 40%;
 
-  margin-top: 10%; /* Adiciona margem superior para evitar sobreposição */
+  margin-top: 8%; /* Adiciona margem superior para evitar sobreposição */
   padding-left: 8%;
   
   @media screen and (max-width: 900px) {
-    margin-top: 12%;
+    margin-top: 11%;
   }
 
   @media screen and (max-width: 630px) {
-    margin-top: 17%;
+    margin-top: 12%;
   }
 
   @media screen and (max-width: 500px) {
@@ -149,13 +149,13 @@ export const TitleText = styled.h1`
     font-size: 100px;
   }
   @media screen and (max-width: 900px) {
-    font-size: 70px;
+    font-size: 55px;
   }
   @media screen and (max-width: 630px) {
-    font-size: 60px;
+    font-size: 50px;
   }
   @media screen and (max-width: 500px) {
-    font-size: 55px;
+    font-size: 45px;
   }
 `;
 
@@ -181,9 +181,15 @@ export const Container03 = styled.div`
 export const ContainerBar = styled.div`
   position: relative;
   background-color: #c34036;
-  height: 20px;
+  height: 25px;
   width: 100%;
 
+  @media screen and (max-width: 900px) {
+    height: 18px;
+  }
+  @media screen and (max-width: 500px) {
+    height: 12px;
+  }
 `;
 
 export const Semicircle = styled.div`
@@ -201,10 +207,16 @@ export const Semicircle = styled.div`
   z-index: 1; /* Certifique-se de que o semicírculo esteja por cima */
   
 
+  @media screen and (max-width: 900px) {
+    height: 95px;
+    width: 190px;
+    border-radius: 0 0 95px 95px; 
+  }
+
   @media screen and (max-width: 500px) {
-    height: 90px; /* Metade da altura original */
-    width: 180px; /* Largura total */
-    border-radius: 0 0 90px 90px; /* Cria um semicírculo virado 180 graus */
+    height: 75px;
+    width: 150px;
+    border-radius: 0 0 75px 75px; 
   }
 `;
 
@@ -213,16 +225,22 @@ export const MiddleCircle = styled.div`
   align-items: center;
   justify-content: center;
 
-  outline: 3px solid white; /* Adiciona uma borda branca */
+  outline: 4px solid white; /* Adiciona uma borda branca */
   height: 180px;
   width: 180px;
   border-radius: 50%;
   margin-bottom: 50%;
   background-color: #000914;
 
+  @media screen and (max-width: 900px) {
+    outline: 3px solid white;
+    height: 160px; 
+    width: 160px; 
+  }
+
   @media screen and (max-width: 500px) {
-    height: 150px; 
-    width: 150px; 
+    height: 125px; 
+    width: 125px; 
   }
 `;
 
