@@ -25,9 +25,21 @@ export const ContainerText = styled.div`
 
   width: 100%;
   padding-left: 12%;
-  padding-top: %;
+  padding-top: 10%;
 
   background-color: #001b2e;
+
+  @media screen and (max-width: 900px) {
+    padding-top: 15%;
+  }
+
+  @media screen and (max-width: 630px) {
+    padding-top: 18%;
+  }
+
+  @media screen and (max-width: 500px) {
+    padding-top: 20%;
+  }
 `;
 
 export const ContainerImages = styled.div`
