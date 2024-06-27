@@ -17,12 +17,12 @@ export const Container = styled.div`
 
   @media screen and (max-width: 900px) {
     width: 100%;
-    height: 70vh;
+    height: 60vh;
   }
 
   @media screen and (max-width: 630px) {
     width: 100%;
-    height: 60vh;
+    height: 50vh;
   }
 
   @media screen and (min-width: 1600px) {

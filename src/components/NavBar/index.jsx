@@ -16,12 +16,15 @@ import React, { useState, useEffect } from "react";
 import Menu from "../../../public/Menu.svg";
 
 function NavBar() {
-  /*Logica para o scroll da NavBar */
   const [scrolled, setScrolled] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
-      if (window.scrollY > 320) {
+      const scrollTop = window.scrollY;
+      const docHeight = document.documentElement.scrollHeight - window.innerHeight;
+      const scrollPercent = (scrollTop / docHeight) * 100;
+
+      if (scrollPercent > 9) { // 9% de scroll
         setScrolled(true);
       } else {
         setScrolled(false);
